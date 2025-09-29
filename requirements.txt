@@ -1,0 +1,48 @@
+# Langchain Core
+langchain
+langchain-core
+
+# Sarvam AI
+sarvamai
+
+# openai integration
+langchain-openai
+openai
+
+# anthropic integration
+
+langchain-anthropic
+
+# google gemini palm integration
+
+langchain-google-genai
+google-generativeai
+
+#huggingface transformers
+
+langchain-huggingface
+transformers
+huggingface-hub
+
+# .env
+python-dotenv
+
+numpy
+scikit-learn   
+
+# Testing
+streamlit
+
+# Type Casting
+
+# API Endpoints
+fastapi
+pydantic
+starlette
+uvicorn
+
+# DB
+pymongo
+
+# PDF Creator
+reportlab
