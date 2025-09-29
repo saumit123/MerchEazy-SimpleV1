@@ -2,6 +2,8 @@
 
 MerchEazy is an AI-powered tool designed to take in voice input, generate invoices, manage databases, and provide analytics for vendors. This is an ongoing project under development.
 
+In future it will also support local languages through indegenious AI models like Sarvam AI.
+
 ---
 
 ## Features
