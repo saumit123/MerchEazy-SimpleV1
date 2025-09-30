@@ -25,7 +25,7 @@ def create_invoice_pdf(data: dict) -> bytes:
     # --- 1. Header Information ---
     
     # Invoice Title
-    elements.append(Paragraph("Invoice: MerchEazy Voice Order", styles['Title']))
+    elements.append(Paragraph("Invoice: MerchEazy Order", styles['Title']))
     
     # Metadata (Date, Order ID)
     # The _id field from MongoDB is a special ObjectId object, so we convert it to a string.
@@ -77,7 +77,7 @@ def create_invoice_pdf(data: dict) -> bytes:
 
     # --- 4. Footer ---
     elements.append(Paragraph("<br/><br/>", styles['Normal']))
-    elements.append(Paragraph("Thank you for using the MerchEazy!", styles['Italic']))
+    elements.append(Paragraph("Thank you for using MerchEazy!", styles['Italic']))
 
     # Build the document
     doc.build(elements)
